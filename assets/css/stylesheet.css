@@ -86,6 +86,96 @@ header {
 
 /* END OF HEADER */
 
+/* SECTION 2 */
+.section_container{
+    width: 100%;
+    height: 100%;
+    background-color: gainsboro;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 2%;
+    box-sizing: border-box;
+}
+
+.section_title{
+    color: #5f5d60;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.row{
+    display: flex;
+    height: 60%;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.anggota{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding-top: 200px;
+    padding-left: 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.row1{
+    background-image: url(../images/1.jpg);
+}
+
+.row2{
+    background-image: url(../images/2.jpg);
+}
+
+.row3{
+    background-image: url(../images/team/rickyjulpiter.jpg);
+}
+
+.row4{
+    background-image: url(../images/team/dendi.jpg);
+}
+
+.row5{
+    background-image: url(../images/3.jpg);
+}
+
+.anggota:hover{
+    transform: translateY(-10px);
+}
+
+h5{
+    color: black;
+    text-shadow: 0 0 5px #999;
+}
+
+.btn_profil{
+    text-align: center;
+    padding-top: 2%;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 12px 24px;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 8px;
+    background-color: rgb(8, 171, 177);
+}
+
+.btn:hover{
+    opacity: 1;
+}
+/* END OF SECTION 2 */
 
 /* FOOTER */
 
