@@ -6,6 +6,9 @@
     .card {
         width: 80%;
     }
+    .section_title{
+        padding-top: 8%;
+    }
 }
 
 @media all and (max-width: 670px) {
@@ -15,6 +18,10 @@
     .menu-icon {
         display: block;
     }
+    .row{
+        display: block;
+        text-align: center;
+    }  
     .lesson {
         width: 100%;
     }
